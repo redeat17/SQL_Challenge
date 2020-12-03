@@ -1,4 +1,4 @@
-# SQL Homework - Employee Database: A Mystery in Two Parts
+# SQL - Employee Database: A Mystery in Two Parts
 
 ![sql.png](sql.png)
 
@@ -26,9 +26,11 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 #### Data Modeling
 
+https://github.com/redeat17/SQL_Challenge/blob/master/Part-2-Case-Assignment/Images/ERD.pdf
+
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
-#### Data Engineering
+#### Data Engineering : 
 
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
 
@@ -36,6 +38,8 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
   * Be sure to create tables in the correct order to handle foreign keys.
 
 * Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
+
+Table Schemata https://github.com/redeat17/SQL_Challenge/blob/master/Part-2-Case-Assignment/table%20schemata.sql
 
 #### Data Analysis
 
@@ -57,7 +61,9 @@ Once you have a complete database, do the following:
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-## Bonus (Optional)
+Queries: https://github.com/redeat17/SQL_Challenge/blob/master/Part-2-Case-Assignment/EmployeeSQL_queries.sql
+
+## Bonus (Optional) : https://github.com/redeat17/SQL_Challenge/blob/master/Part-2-Case-Assignment/SQL-Pandas%20Analysis.ipynb
 
 As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
 
